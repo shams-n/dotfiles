@@ -1,4 +1,4 @@
 #!/bin/bash
-git clone https://gist.github.com/a2dad17ac97d440be4d324b0b99dd52f.git gists
+git clone https://gist.github.com/45fac15683b7241fe0d6eddd52fb6511.git gists
 cp -a ./gists/.gitconfig ~
 git config --global credential.helper 'cache --timeout=2419200' #one month
